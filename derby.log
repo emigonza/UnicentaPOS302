@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-Wed May 01 15:17:19 ART 2013:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.9.1.0 - (1344872): instance a816c00e-013e-6150-1952-000002b55e90 
+Fri May 03 17:32:08 ART 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.9.1.0 - (1344872): instance a816c00e-013e-6c18-3cb1-000002b46840 
 on database directory /home/emiliano/unicentaopos-database  with class loader sun.misc.Launcher$AppClassLoader@2b8f73cb 
 Loaded from file:/home/opt/Java/workspaceAD/Unicenta302/lib/derby.jar
 java.vendor=Oracle Corporation
