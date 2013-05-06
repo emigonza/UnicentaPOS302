@@ -19,6 +19,7 @@
 
 package com.openbravo.pos.forms;
 
+import com.ergio.rest.RestServer;
 import com.openbravo.basic.BasicException;
 import com.openbravo.beans.JFlowPanel;
 import com.openbravo.beans.JPasswordDialog;
@@ -134,7 +135,16 @@ public class JRootApp extends JPanel implements AppView {
             JMessageDialog.showMessage(this, new MessageInf(MessageInf.SGN_DANGER, e.getMessage(), e));
             return false;
         }
-
+        
+        /********************/
+    	try {
+			RestServer.startRest(session,m_props);
+		} catch (Exception e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+    	/*********************/
+    	
         m_dlSystem = (DataLogicSystem) getBean("com.openbravo.pos.forms.DataLogicSystem");
         
         // Create or upgrade the database if database version is not the expected

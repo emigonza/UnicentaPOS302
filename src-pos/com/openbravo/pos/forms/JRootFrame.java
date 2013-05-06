@@ -19,6 +19,7 @@
 
 package com.openbravo.pos.forms;
 
+import com.openbravo.basic.BasicException;
 import com.openbravo.pos.config.JFrmConfig;
 import com.openbravo.pos.instance.AppMessage;
 import com.openbravo.pos.instance.InstanceManager;
@@ -47,7 +48,7 @@ public class JRootFrame extends javax.swing.JFrame implements AppMessage {
         initComponents();    
     }
     
-    public void initFrame(AppProperties props) {
+    public void initFrame(AppProperties props) throws BasicException {
         
         m_props = props;
         
