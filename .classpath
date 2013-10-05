@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src-pos"/>
-	<classpathentry kind="src" path="src-rest"/>
 	<classpathentry kind="src" path="lib"/>
 	<classpathentry kind="src" path="reports"/>
 	<classpathentry kind="src" path="locales"/>
